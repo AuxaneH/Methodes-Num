@@ -11,7 +11,7 @@ LNAME = -lm
 EXEC=Projet
 
 #liste des fichiers sources (on aurait pu utiliser SRC= $(wildcard *.c)
-SRC=  Projet.c RempAff.c calcul.c ProjetFonctions.c
+SRC=  main.c fonctions.c
 
 #liste des fichiers objets
 OBJ= $(SRC:.c=.o)
